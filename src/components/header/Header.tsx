@@ -11,7 +11,7 @@ import Dropcart from '~/components/header/Dropcart';
 import Indicator, { IIndicatorController } from '~/components/header/Indicator';
 import Logo from '~/components/header/Logo';
 import MainMenu from '~/components/header/MainMenu';
-import Search from '~/components/header/Search';
+// import Search from '~/components/header/Search';
 import Topbar from '~/components/header/Topbar';
 import url from '~/services/url';
 import { Heart32Svg, Person32Svg, Cart32Svg } from '~/svg';
@@ -83,9 +83,9 @@ function Header() {
                 )}
             </div>
             <Logo className="header__logo" />
-            <div className="header__search">
+            {/* <div className="header__search">
                 <Search />
-            </div>
+            </div> */}
             <div className="header__indicators">
                 <Indicator
                     href={url.wishlist()}
